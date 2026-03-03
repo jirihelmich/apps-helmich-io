@@ -206,7 +206,28 @@ nav {
 .price-desc {
     font-size: 15px;
     color: var(--text-secondary);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+}
+
+.price-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.price-features li {
+    font-size: 15px;
+    color: var(--text-secondary);
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.price-features li::before {
+    content: "\2713";
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 10px;
 }
 
 /* Footer */
